@@ -71,9 +71,8 @@ end
 local returnedNotwork = {
     DefinePacket = Notwork.DefinePacket, 
     DefineUnreliablePacket = Notwork.DefineUnreliablePacket,
-    Array = Notwork.Array,
-    Dict = Notwork.Dict,
-    Struct = Notwork.Struct,
+    array = Notwork.array,
+    dict = Notwork.dict,
     _Packets = Notwork._Packets,
     RemoteEvent = Notwork.RemoteEvent :: RemoteEvent,
     UnreliableRemoteEvent = Notwork.UnreliableRemoteEvent :: UnreliableRemoteEvent
