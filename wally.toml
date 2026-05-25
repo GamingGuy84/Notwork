@@ -1,10 +1,12 @@
 [package]
 name = "gamingguy84/notwork"
-version = "0.1.4"
+version = "0.1.8"
 description = "lightweight Roblox networking library that adds type safety, schema validation, and compact binary serialization to RemoteEvents."
 license = "MIT"
 authors = ["GamingGuy84"]
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+exclude = ["**"]
+include = ["lib", "lib/*", "default.project.json", "LICENSE", "wally.toml", "README.md"]
 
 [dependencies]

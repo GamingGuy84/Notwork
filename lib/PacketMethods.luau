@@ -1,8 +1,7 @@
 --[[
     Designed to be idiomatic to Roblox's RemoteEvent instances.
 
-    Packet's do not have disconnect functions because they're intended to be static, not dynamic
-    
+    Packet's do not have disconnect functions because they're intended to be static, not dynamic  
 ]]
 
 local RunService = game:GetService("RunService")

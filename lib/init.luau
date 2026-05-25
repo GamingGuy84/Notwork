@@ -1,11 +1,8 @@
---[[
+local Annotations = require("@self/Annotations")
+local DataEnumTypes = require("@self/DataEnumTypes")
+local PacketMethods = require("@self/PacketMethods")
+local RemoteEvents = require("@self/RemoteEvents")
 
-]]
-
-local Annotations = require("./Notwork/Annotations")
-local DataEnumTypes = require("./Notwork/DataEnumTypes")
-local PacketMethods = require("./Notwork/PacketMethods") 
-local RemoteEvents = require("./Notwork/RemoteEvents")
 
 local Notwork = {}
 local Packets = {}
